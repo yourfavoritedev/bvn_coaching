@@ -1,0 +1,157 @@
+body{
+	background: white;
+}
+
+#navPane img{
+	width: 150px;
+}
+
+.navbar-default{
+	border: 0px solid transparent;
+	background: #1e1e1e;
+	padding: 12px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #2bcfff;
+	font-weight: bold;
+	background-color: transparent;
+	transition: all 0.3s ease;
+}
+
+
+.navbar-nav > li > a{
+	line-height: 45px;
+	font-family: bungee;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-toggle{
+	line-height: 45px;
+	border: 0px solid transparent;
+
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+	background: white;
+	transition: all 0.5s ease;
+}
+
+
+.navbar-toggle{
+	margin-top: 18px;
+	border: 0px solid transparent;
+	border-radius: 0px;			
+}
+
+.navbar-default .navbar-collapse{
+	border: 0px transparent solid;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #2bcfff;
+}
+
+.navbar-toggle .icon-bar {
+	height: 4px;
+	border-radius: 100px;
+}
+
+#aboutSection{
+	background-image: url("./images/intro-image2.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+#aboutSection h1{
+	margin: 0px;
+	padding-top: 80px;
+	padding-bottom: 15px;
+	color: white;
+	font-size: 12vw;
+	font-family: teko;
+	text-shadow: 1px 1px 25px #000;
+}
+
+#aboutSection h2{
+	margin: 0px;
+	padding: 10px 0px;
+	color: white;
+	font-size: 8vw;
+	font-family: teko;
+	text-shadow: 1px 1px 25px #000;
+}
+
+#aboutSection button{
+	padding: 15px 5px;
+	border-radius: 100px;
+}
+
+.circle{
+	height: 200px;
+	width: 200px;
+	background: transparent;
+	border-radius: 100px;
+	border: 10px white solid;
+	box-shadow: 1px 1px 3px #000;
+	text-align: center;
+	margin: auto;
+	color: #fff;
+	font-size: 24px;
+	font-family: bungee;
+	text-shadow: 1px 1px 15px #000;
+}
+
+.circle:hover{
+	background: white;
+	color: #1e1e1e;
+	text-shadow: none;
+	transition: all 0.2s ease;
+}
+
+#liftBtn{
+	width: 60%;
+	margin: 75px auto;
+
+}
+
+
+@media only screen and (max-width: 767px){
+	#aboutSection h1{
+		text-align: center;
+		margin: 0px;
+		padding-top: 80px;
+		padding-bottom: 15px;
+		color: white;
+		font-size: 100px;
+		font-family: teko;
+		text-shadow: 1px 1px 25px #000;
+	}
+	#aboutSection h2{
+		text-align: center;	
+		margin: 0px;
+		padding: 10px 0px;
+		color: white;
+		font-size: 55px;
+		font-family: teko;
+		text-shadow: 1px 1px 25px #000;
+	}
+	#liftBtn{
+		text-align: center;
+		width: 60%;
+		margin: 75px auto;
+
+	}	
+}
+
+input, a, button:focus{
+	outline: none;
+}
+
