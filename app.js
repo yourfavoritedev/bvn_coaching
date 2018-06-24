@@ -1,8 +1,8 @@
-$("video").on("mouseover", function(){
+$("video").on("play", function(){
 	$("video").addClass("fade")
 	$(this).removeClass("fade")
 })
 
-$("video").on("mouseout", function(){
+$("video").on("pause", function(){
 	$("video").removeClass("fade")
 })
