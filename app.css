@@ -1,3 +1,7 @@
+html, body{
+	overflow-x: hidden;
+}
+
 body{
 	background: white;
 	font-family: roboto condensed;
@@ -283,5 +287,8 @@ input, a, button:focus{
 	#closingBanner img{
 		width: 80px;
 		margin: 5px;
-}
+	}
+	#japanVideo{
+		width: 300px;
+	}
 }
